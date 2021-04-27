@@ -1,0 +1,79 @@
+#header{
+    text-align: center;
+    font-family:'Courgette', cursive;
+    padding: 15px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+ 
+    font-size: 30px;
+    
+}
+body{
+    
+   background-color: WhiteSmoke;
+   background-image: url(/img/background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+main{
+    width: 100%;
+    display: inline-block;
+}
+#myform{
+    font-family:'Courgette', cursive;
+    text-align: center;
+    background:RGBA(211, 211, 211, 0.548);
+
+}
+
+/* .form{
+    float: left;
+    width: 50%;
+    padding: 20px;
+   
+
+}
+
+.table1{
+    float: right;
+    margin-right: 20px;
+    
+} */
+#mytable{
+    border-collapse: collapse;
+    border-style: solid;
+ margin: auto;
+ background:RGBA(211, 211, 211, 0.548);
+}
+
+th{
+    text-align: center;
+    font-family:'Courgette', cursive;
+}
+
+th,td{
+    border: solid 5px whitesmoke;
+    padding: 5px;
+   font-family:'Courgette', cursive;
+}
+
+
+#submit {
+    background: RGB(39, 39, 39);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+  
+}
+#footer{
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Courgette', cursive;
+    font-size: 20px;
+    display:fixed;
+    bottom: 20%;
+    top: 0%;
+    position: relative;
+}
